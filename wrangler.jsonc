@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cari-hesap-takip",
+  "main": "vinext/server/fetch-handler",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "cari-hesap-verileri",
+      "database_id": "d710371e-f6c6-42d8-8bd2-d807eeb7b592",
+      "migrations_dir": "drizzle"
+    }
+  ]
+}
